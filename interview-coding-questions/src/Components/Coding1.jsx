@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 
 function Coding1(){
     const [count , setCount] = useState(0);
-    useEffect(() =>{
-        console.log("Component rendered successfully");
-    },[]);
+    // useEffect(() =>{
+    //     console.log("Component rendered successfully");
+    // },[]);
 
     return(
         <>
