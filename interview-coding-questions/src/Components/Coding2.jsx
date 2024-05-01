@@ -1,7 +1,7 @@
 // // import React from "react";
 // function Coding2(){
 //     const names = ['Brian', 'Paul', 'Krug', 'Halley', 'Sakshi', 'Mahesh', 'Rishav'];
-//     const listItem = names.map((name)=><li>{name}</li>);
+//     const listItem = names.map((name)=><li>{name}</li>); //without key this can be give output but this is not right way use key in map array
 //     return(
 //         <>
 //         <ul>{listItem}</ul>
