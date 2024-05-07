@@ -33,8 +33,8 @@ type: Array, Objects, Functions
 // myFunction();
 
 // ******************************
-// STACK(primitive data type),  coppy milta h
-// heap(non-primitive data type), refrence milta h
+// STACK(primitive data type),original value ka coppy milta h
+// heap(non-primitive data type), original value ka refrence milta h
 
 
 let myYoutubeName = 'sakshiKumari'
@@ -46,10 +46,11 @@ console.log(myYoutubeName);
 
 let userOne = {
     email : 'user@google.com',
-    upi : "user@ybl"
+    upi : "user@ybl",
+    password : 'tyrttrsqgdf123'
 
 }
 
 let userTwo = userOne
 userTwo.email = "sakshi@gmail.com"
-console.table(userTwo)
+console.log(userTwo)
