@@ -24,6 +24,7 @@ console.log(Math.abs(4));
 console.log(Math.round(46.333));
 // ceil mtlb top value ko choose krna
 console.log(Math.ceil(8.4))
+// floor means lowest value
 console.log(Math.floor(5.5))
 console.log(Math.min(3,5,7,2,9))
 console.log(Math.max(10,10,45,3,6,88,88));
