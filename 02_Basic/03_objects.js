@@ -16,9 +16,9 @@ const jsUser = {
 
 //   value access
 console.log(jsUser.Email);
-// console.log(jsUser["name"])
-// console.log(jsUser["Email"]);
-// console.log(jsUser[mySym]);
+console.log(jsUser["name"])
+console.log(jsUser["Email"]);
+console.log(jsUser[mySym]);
 
 // change value
 
