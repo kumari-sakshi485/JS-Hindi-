@@ -72,5 +72,5 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 // for loop throw
-
+//check property
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
