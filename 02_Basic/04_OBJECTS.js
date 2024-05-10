@@ -74,3 +74,36 @@ console.log(Object.entries(tinderUser));
 // for loop throw
 //check property
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+// Destructuring i n object 
+
+const course = {
+    courseName:'js in hindi',
+    price:'999',
+    CourseInstructor :'hitesh'
+}
+
+// for value use
+// course.CourseInstructor
+
+const {CourseInstructor:teacher} =  course
+
+console.log(teacher);
+
+// upper jo example hai course ka oo destructure ka example hai
+
+
+// API ka concept(jiase ki aapna kam dusre ko dena like menu card in resturent) sare value JSON form mai aata h
+
+
+// {
+//     "name": "Sakshi",
+//    "coursename":"js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
