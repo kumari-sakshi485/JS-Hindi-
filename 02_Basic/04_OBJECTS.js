@@ -63,3 +63,14 @@ const user = [
 
 user[1].email
 console.log(user);
+
+console.log(tinderUser);
+
+// find keys and value og tinderUser in object
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+// for loop throw
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
